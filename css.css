@@ -1,0 +1,272 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  background-color: #f3f3f3;
+}
+#wrapper {
+  border: 0px solid #f3f3f3;
+  box-shadow: 1px 1px 27px 5px #cccccc;
+  padding: 10px;
+  top: 30px;
+  background-color: #ffffff;
+  width: 1060px;
+  position: relative;
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 1080px;
+  min-width: 600px;
+  right: 10px;
+  bottom: 10px
+}
+#top {
+  height: 210px;
+  width: auto;
+  position: relative;
+  background-color: #cfe2f3;
+}
+#links {
+  height: 33px;
+  background-color: #cccccc;
+  width: auto;
+}
+
+#background {
+  #min-height: 80px;
+  background-color: #f3f3f3;
+  width: auto;
+  position: relative;
+  margin-right: auto;
+  margin-top: 0px;
+  padding-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+#main {
+  min-height: 1800px;
+  width: auto;
+  position: relative;
+  margin-top: 8px;
+  padding-top: 30px;
+  background-color: #28639a;
+  color: #ffffff;
+  box-shadow: -10px -10px 300px 1px black inset;
+}
+
+#contact {
+  position: relative;
+  height: auto;
+  background-color: blue;
+  width: auto;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-left: auto;
+}
+
+#bottom {
+  height: auto;
+  background-color: grey;
+  width: auto;
+  position: relative;
+  margin-right: auto;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-left: auto;
+}
+
+.top {
+  #display: inline;
+  #position: relative;
+}
+.top img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 0;
+}
+.top h1 {
+  padding: 0 0px;
+  font-size: 50px;
+  position: relative;
+  z-index:1;
+  top: 63px;
+  font-family: Georgia;
+  right: 163px;
+  text-align: right;
+  line-height: 0px;
+  color: #000000;
+}
+.top h2 {
+  padding: 0 0px;
+  position: relative;
+  z-index:1;
+  right: 136px;
+  font-family: Georgia;
+  font-weight: normal;
+  top: 136px;
+  color: #cccccc;
+  font-size: 40px;
+  text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 1px -1px 0, #000000 -1px 1px 0, #000000 0px 1px 0, #000000 1px 0px 0, #000000 0px -1px 0, #000000 -1px 0px 0, #000000 4px 4px 3px;
+
+  text-align: right;
+  line-height: 0px;
+}
+
+.main p.title1 {
+  position: absolute;
+  top: 70;
+  left: 240;
+  #z-index: 0;
+  font-size: 36px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+
+.main p.title2 {
+  position: absolute;
+  top: 115;
+  left: 360;
+  #z-index: 0;
+  font-size: 24px;
+  font-family: Georgia;
+}
+
+.main p.mail {
+  position: absolute;
+  top: 434;
+  left: 0;
+  #z-index: 0;
+  font-size: 18px;
+  font-family: Georgia;
+  text-align: center;
+  padding: 10 169px;
+}
+
+.main p.end {
+  position: relative;
+  top: 690;
+  left: 0;
+  #z-index: 0;
+  font-size: 14px;
+  font-family: Georgia;
+  text-align: center;
+  padding: 10 10px;
+  color: white;
+}
+
+.main a.end {
+  color: white;
+}
+
+.main a.end:visited {
+  color: #cccccc;
+}
+
+.main a.end:hover {
+  color: #cfe2f3;
+}
+
+
+
+.main p.copyright {
+  position: relative;
+  top: 700;
+  left: 0;
+  #z-index: 0;
+  font-size: 12px;
+  font-family: Georgia;
+  text-align: center;
+  padding: 10 10px;
+}
+
+.main img.img2 {
+  position: absolute;
+  top: 69;
+  left: 80;
+  #z-index: 0;
+}
+
+.main img.img3 {
+  position: absolute;
+  top: 154;
+  left: 255;
+  z-index: 0;
+}
+
+.main ul.services {
+  position: absolute;
+  top: 220;
+  left: 266;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Georgia;
+}
+
+.form {
+  position: absolute;
+  top: 800;
+  left: 255;
+}
+
+
+.contact {
+  position: absolute;
+  top: 10;
+  left: 10;
+}
+
+.left {
+  float: left;
+  position: relative;
+  height: auto;
+  width: auto;
+  background-color: #28639a;
+  color: #ffffff;
+}
+
+.right {
+  float: right;
+  width: 460px;
+  min-height: 90px;
+  background-color: #999999;
+}
+
+.links ul {
+  border: 0px solid grey;
+  overflow: hidden;
+  background-color: #cccccc;
+  box-shadow: 1px 20px 10px 1px white inset;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 6px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+  list-style-type: none;
+}
+.links li {
+  float: left;
+  text-align: center ! important;
+}
+.links li a {
+  border: 1px solid grey;
+  padding: 9px 59px;
+  margin-right: 10px;
+  float: none ! important;
+  color: #666666;
+  text-align: center ! important;
+  text-decoration: none;
+  font-size: 14px;
+  font-family: Georgia;
+  font-weight: bold;
+}
+.links li a.active {
+    background-color: #0b5394;
+    color: white;
+    #box-shadow: 1px 5px 15px 1px white inset;
+}
+.links li a:hover:not(.active) {
+  background-color: #f3f3f3;
+  color: #0b5394;
+}
