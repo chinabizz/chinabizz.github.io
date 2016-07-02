@@ -45,7 +45,7 @@ body {
 }
 
 #main {
-  min-height: 1100px;
+  min-height: 600px;
   width: auto;
   position: relative;
   margin-top: 8px;
@@ -56,20 +56,6 @@ body {
 }
 
 
-
-#form {
-  #width: auto;
-  position: relative;
-  margin-top: 8px;
-  padding-top: 30px;
-  top: 500px;
-  left: 0px;
-}
-
-.top {
-  #display: inline;
-  #position: relative;
-}
 .top img {
   position: absolute;
   top: 0;
@@ -124,31 +110,20 @@ body {
 }
 
 .main p.mail {
-  position: absolute;
-  top: 454px;
+  position: relative;
+  top: 254px;
   left: 0px;
   #z-index: 0;
-  font-size: 18px;
+  font-size: 24px;
   font-family: Georgia;
   text-align: center;
   padding: 10px 169px;
 }
 
-.main p.java {
-  position: absolute;
-  top: 510px;
-  left: 0px;
-  #z-index: 0;
-  font-size: 18px;
-  color: yellow;
-  font-family: Georgia;
-  text-align: center;
-  padding: 10px 169px;
-}
 
 .main p.end {
   position: relative;
-  top: 590px;
+  top: 390px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -174,7 +149,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 580px;
+  top: 415px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
@@ -196,17 +171,6 @@ body {
   left: 255px;
   z-index: 0;
 }
-
-.main ul.services {
-  position: absolute;
-  top: 220px;
-  left: 266px;
-  color: #ffffff;
-  font-size: 24px;
-  font-family: Georgia;
-}
-
-
 
 .links ul {
   border: 0px solid grey;
@@ -245,3 +209,4 @@ body {
   background-color: #f3f3f3;
   color: #0b5394;
 }
+
