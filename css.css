@@ -45,7 +45,7 @@ body {
 }
 
 #main {
-  min-height: 1100px;
+  min-height: 1000px;
   width: auto;
   position: relative;
   margin-top: 8px;
@@ -62,7 +62,7 @@ body {
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  top: 500px;
+  top: 424px;
   left: 0px;
 }
 
@@ -105,22 +105,47 @@ body {
 }
 
 .main p.title1 {
-  position: absolute;
-  top: 70px;
-  left: 240px;
+  position: relative;
+  top: 40px;
+  left: 0px;
   #z-index: 0;
   font-size: 36px;
   font-family: Georgia;
   font-weight: bold;
+  text-align: center;
 }
 
 .main p.title2 {
-  position: absolute;
-  top: 115px;
-  left: 360px;
+  position: relative;
+  top: 42px;
+  left: 0px;
   #z-index: 0;
   font-size: 24px;
   font-family: Georgia;
+  text-align: center;
+}
+
+.main p.title3 {
+  position: relative;
+  top: 150px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 24px;
+  font-family: Georgia;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 1px -1px 0, #000000 -1px 1px 0, #000000 0px 1px 0, #000000 1px 0px 0, #000000 0px -1px 0, #000000 -1px 0px 0, #000000 4px 4px 3px;
+}
+
+.main p.description {
+  position: relative;
+  top: 160px;
+  left: 30px;
+  #z-index: 0;
+  font-size: 24px;
+  font-family: Georgia;
+  text-align: left;
+  padding: 10px 240px;
 }
 
 .main p.mail {
@@ -132,6 +157,17 @@ body {
   font-family: Georgia;
   text-align: center;
   padding: 10px 169px;
+}
+
+.main p.mail1 {
+  position: absolute;
+  top: 454px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 24px;
+  font-family: Georgia;
+  text-align: center;
+  padding: 10px 150px;
 }
 
 .main p.java {
@@ -148,7 +184,7 @@ body {
 
 .main p.end {
   position: relative;
-  top: 590px;
+  top: 480px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -174,7 +210,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 580px;
+  top: 470px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
@@ -185,28 +221,54 @@ body {
 
 .main img.img2 {
   position: absolute;
-  top: 69px;
-  left: 80px;
+  top: 66px;
+  left: 150px;
   #z-index: 0;
 }
 
 .main img.img3 {
   position: absolute;
   top: 154px;
-  left: 255px;
+  left: 300px;
+  z-index: 0;
+}
+
+.main img.flagPL {
+  position: absolute;
+  top: 270px;
+  left: 172px;
+  z-index: 0;
+}
+
+.main img.flagCN {
+  position: absolute;
+  top: 315px;
+  left: 172px;
+  z-index: 0;
+}
+
+.main img.flagUK {
+  position: absolute;
+  top: 360px;
+  left: 172px;
+  z-index: 0;
+}
+
+.main img.flagES {
+  position: absolute;
+  top: 405px;
+  left: 172px;
   z-index: 0;
 }
 
 .main ul.services {
   position: absolute;
   top: 220px;
-  left: 266px;
+  left: 300px;
   color: #ffffff;
   font-size: 24px;
   font-family: Georgia;
 }
-
-
 
 .links ul {
   border: 0px solid grey;

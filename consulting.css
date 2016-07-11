@@ -45,7 +45,7 @@ body {
 }
 
 #main {
-  min-height: 500px;
+  min-height: 1230px;
   width: auto;
   position: relative;
   margin-top: 8px;
@@ -56,18 +56,28 @@ body {
 }
 
 
+
+#form {
+  #width: auto;
+  position: relative;
+  margin-top: 8px;
+  padding-top: 30px;
+  top: 165px;
+  left: 0px;
+}
+
 .top {
   #display: inline;
   #position: relative;
 }
 .top img {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: 0;
 }
 .top h1 {
-  padding: 0px 0px;
+  padding: 0 0px;
   font-size: 50px;
   position: relative;
   z-index:1;
@@ -115,21 +125,74 @@ body {
   text-align: center;
 }
 
-.main p.uwaga {
-  position: absolute;
-  top: 254px;
+.main p.title3 {
+  position: relative;
+  top: 150px;
   left: 0px;
   #z-index: 0;
   font-size: 24px;
   font-family: Georgia;
+  font-weight: bold;
   text-align: center;
-  padding: 10px 169px;
+  text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 1px -1px 0, #000000 -1px 1px 0, #000000 0px 1px 0, #000000 1px 0px 0, #000000 0px -1px 0, #000000 -1px 0px 0, #000000 4px 4px 3px;
+}
+
+.main p.description {
+  position: relative;
+  top: 160px;
+  left: 115px;
+  #z-index: 0;
+  font-size: 24px;
+  font-family: Georgia;
+  text-align: left;
+  padding: 10px 230px;
+  text-indent: 30px;
+  line-height: 130%;
+}
+
+.main p.mail {
+  position: relative;
+  top: 200px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 21px;
+  font-family: Georgia;
+  text-align: left;
+  padding: 10px 166px;
+  text-indent: 50px;
+  line-height: 130%;
+}
+
+.main p.mail2 {
+  position: relative;
+  top: 181px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 18px;
+  font-family: Georgia;
   color: yellow;
+  text-align: center;
+  padding: 10px 133px;
+  text-indent: 0px;
+  line-height: 130%;
+}
+
+.main p.java {
+  position: absolute;
+  top: 730px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 18px;
+  font-weight: bold;
+  color: yellow;
+  font-family: Georgia;
+  text-align: center;
+  padding: 10px 130px;
 }
 
 .main p.end {
   position: relative;
-  top: 300px;
+  top: 242px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -155,7 +218,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 300px;
+  top: 231px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
@@ -179,6 +242,22 @@ body {
 }
 
 
+.main img.imgCN {
+  position: absolute;
+  top: 290px;
+  left: 66px;
+  z-index: 0;
+}
+
+
+.main ul.services {
+  position: relative;
+  top: 180px;
+  left: 420px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Georgia;
+}
 
 .links ul {
   border: 0px solid grey;
@@ -208,7 +287,7 @@ body {
   font-family: Georgia;
   font-weight: bold;
 }
-//.links li a.active {
+.links li a.active {
     background-color: #0b5394;
     color: white;
     #box-shadow: 1px 5px 15px 1px white inset;

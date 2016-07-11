@@ -45,7 +45,7 @@ body {
 }
 
 #main {
-  min-height: 500px;
+  min-height: 660px;
   width: auto;
   position: relative;
   margin-top: 8px;
@@ -56,18 +56,28 @@ body {
 }
 
 
+
+#form {
+  #width: auto;
+  position: relative;
+  margin-top: 8px;
+  padding-top: 30px;
+  top: 424px;
+  left: 0px;
+}
+
 .top {
   #display: inline;
   #position: relative;
 }
 .top img {
   position: absolute;
-  top: 0px;
-  left: 0px;
+  top: 0;
+  left: 0;
   z-index: 0;
 }
 .top h1 {
-  padding: 0px 0px;
+  padding: 0 0px;
   font-size: 50px;
   position: relative;
   z-index:1;
@@ -82,7 +92,7 @@ body {
   padding: 0 0px;
   position: relative;
   z-index:1;
-  right: 136px;
+  right: 42px;
   font-family: Georgia;
   font-weight: normal;
   top: 136px;
@@ -96,40 +106,66 @@ body {
 
 .main p.title1 {
   position: relative;
-  top: 40px;
-  left: 0px;
+  top: 48px;
+  left: 300px;
   #z-index: 0;
-  font-size: 36px;
+  font-size: 20px;
   font-family: Georgia;
-  font-weight: bold;
-  text-align: center;
+  font-weight: ;
+  text-align: left;
+  text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 1px -1px 0, #000000 -1px 1px 0, #000000 0px 1px 0, #000000 1px 0px 0, #000000 0px -1px 0, #000000 -1px 0px 0, #000000 4px 4px 3px;
 }
 
 .main p.title2 {
   position: relative;
-  top: 42px;
-  left: 0px;
+  top: 60px;
+  left: 300px;
+  padding: 0px 0px 0px 0px;
   #z-index: 0;
-  font-size: 24px;
+  font-size: 18px;
   font-family: Georgia;
-  text-align: center;
+  text-align: left;
+  margin-right: 600px;
 }
 
-.main p.uwaga {
+.main p.title3 {
+  position: relative;
+  top: 81px;
+  left: 300px;
+  padding: 0px 0px 0px 0px;
+  #z-index: 0;
+  font-size: 18px;
+  font-family: Georgia;
+  text-align: left;
+  margin-right: 600px;
+}
+
+.main p.mail {
   position: absolute;
-  top: 254px;
+  top: 454px;
   left: 0px;
   #z-index: 0;
-  font-size: 24px;
+  font-size: 18px;
   font-family: Georgia;
   text-align: center;
   padding: 10px 169px;
+}
+
+.main p.java {
+  position: absolute;
+  top: 510px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 18px;
   color: yellow;
+  font-family: Georgia;
+  text-align: center;
+  padding: 10px 169px;
 }
 
 .main p.end {
   position: relative;
-  top: 300px;
+  top: 360px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -155,7 +191,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 300px;
+  top: 350px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
@@ -166,18 +202,40 @@ body {
 
 .main img.img2 {
   position: absolute;
-  top: 66px;
+  top: 81px;
   left: 150px;
   #z-index: 0;
 }
 
 .main img.img3 {
-  position: absolute;
-  top: 154px;
+  position: relative;
+  top: 69px;
   left: 300px;
   z-index: 0;
 }
 
+.main img.horse {
+  position: absolute;
+  top: 300px;
+  left: 330px;
+  #z-index: 0;
+}
+
+.main img.text-cn {
+  position: absolute;
+  top: 300px;
+  left: 460px;
+  #z-index: 0;
+}
+
+.main ul.services {
+  position: absolute;
+  top: 220px;
+  left: 300px;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: Georgia;
+}
 
 
 .links ul {
@@ -208,7 +266,7 @@ body {
   font-family: Georgia;
   font-weight: bold;
 }
-//.links li a.active {
+.links li a.active {
     background-color: #0b5394;
     color: white;
     #box-shadow: 1px 5px 15px 1px white inset;
