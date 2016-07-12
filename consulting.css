@@ -27,9 +27,9 @@ body {
   background-color: #cfe2f3;
 }
 #links {
-  height: 33px;
-  background-color: #cccccc;
-  width: auto;
+  height: 100%;
+  background-color: #f3f3f3;
+  width: 100%;
 }
 
 #background {
@@ -265,20 +265,21 @@ body {
   background-color: #cccccc;
   box-shadow: 1px 20px 10px 1px white inset;
   padding-top: 10px;
-  padding-bottom: 10px;
+  padding-bottom: 0px;
   padding-left: 6px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: -15px;
   list-style-type: none;
 }
 .links li {
-  float: left;
+  display: inline-block;
   text-align: center ! important;
+  margin-bottom: 20px;
 }
 .links li a {
   border: 1px solid grey;
-  padding: 9px 59px;
-  margin-right: 10px;
+  padding: 9px 61px;
+  margin-right: 0px;
   float: none ! important;
   color: #666666;
   text-align: center ! important;
