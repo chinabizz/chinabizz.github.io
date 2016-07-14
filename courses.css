@@ -62,7 +62,7 @@ body {
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  top: 438px;
+  top: 966px;
   left: 0px;
 }
 
@@ -152,14 +152,43 @@ body {
 }
 
 .main p.description1 {
-  position: relative;
-  top: 390px;
+  position: absolute;
+  top: 510px;
   left: 45px;
   #z-index: 1;
   font-size: 20px;
   font-family: Georgia;
   text-align: left;
   padding: 10px 210px;
+  padding-right: 165px;
+  text-indent: 30px;
+  line-height: 130%;
+}
+
+.main p.description2 {
+  position: absolute;
+  top: 780px;
+  left: 45px;
+  #z-index: 1;
+  font-size: 20px;
+  font-family: Georgia;
+  text-align: left;
+  padding: 10px 210px;
+  padding-right: 165px;
+  text-indent: 30px;
+  line-height: 130%;
+}
+
+.main p.description3 {
+  position: absolute;
+  top: 940px;
+  left: 45px;
+  #z-index: 1;
+  font-size: 20px;
+  font-family: Georgia;
+  text-align: left;
+  padding: 10px 381px;
+  padding-right: 150px;
   text-indent: 30px;
   line-height: 130%;
 }
@@ -206,7 +235,7 @@ body {
 
 .main p.end {
   position: relative;
-  top: 515px;
+  top: 1040px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -232,7 +261,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 505px;
+  top: 1030px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
