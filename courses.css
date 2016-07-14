@@ -62,7 +62,7 @@ body {
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  top: 133px;
+  top: 438px;
   left: 0px;
 }
 
@@ -126,9 +126,9 @@ body {
 }
 
 .main p.title3 {
-  position: relative;
-  top: 150px;
-  left: 0px;
+  position: absolute;
+  top: 245px;
+  left: 183px;
   #z-index: 0;
   font-size: 24px;
   font-family: Georgia;
@@ -138,8 +138,22 @@ body {
 }
 
 .main p.description {
+  position: absolute;
+  top: 290px;
+  left: 45px;
+  #z-index: 1;
+  font-size: 20px;
+  font-family: Georgia;
+  text-align: left;
+  padding: 10px 210px;
+  padding-right: 165px;
+  text-indent: 30px;
+  line-height: 130%;
+}
+
+.main p.description1 {
   position: relative;
-  top: 160px;
+  top: 390px;
   left: 45px;
   #z-index: 1;
   font-size: 20px;
@@ -151,8 +165,8 @@ body {
 }
 
 .main p.mail {
-  position: relative;
-  top: 180px;
+  position: absolute;
+  top: 1055px;
   left: 0px;
   #z-index: 0;
   font-size: 20px;
@@ -192,7 +206,7 @@ body {
 
 .main p.end {
   position: relative;
-  top: 210px;
+  top: 515px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -218,7 +232,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 201px;
+  top: 505px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
