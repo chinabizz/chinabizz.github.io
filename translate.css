@@ -62,7 +62,7 @@ body {
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  top: 264px;
+  top: 438px;
   left: 0px;
 }
 
@@ -126,9 +126,9 @@ body {
 }
 
 .main p.title3 {
-  position: relative;
-  top: 150px;
-  left: 0px;
+  position: absolute;
+  top: 251px;
+  left: 430px;
   #z-index: 0;
   font-size: 24px;
   font-family: Georgia;
@@ -138,14 +138,14 @@ body {
 }
 
 .main p.description {
-  position: relative;
-  top: 160px;
-  left: 30px;
+  position: absolute;
+  top: 290px;
+  left: 39px;
   #z-index: 0;
   font-size: 24px;
   font-family: Georgia;
   text-align: left;
-  padding: 10px 240px;
+  padding: 10px 230px;
   text-indent: 30px;
   line-height: 130%;
 }
@@ -203,7 +203,7 @@ body {
 
 .main p.end {
   position: relative;
-  top: 390px;
+  top: 561px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -244,7 +244,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 380px;
+  top: 552px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;

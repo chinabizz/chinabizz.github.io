@@ -105,8 +105,8 @@ body {
 }
 
 .main p.title1 {
-  position: relative;
-  top: 48px;
+  position: absolute;
+  top: 78px;
   left: 300px;
   #z-index: 0;
   font-size: 20px;
@@ -117,27 +117,26 @@ body {
 }
 
 .main p.title2 {
-  position: relative;
-  top: 60px;
+  position: absolute;
+  top: 115px;
   left: 300px;
-  padding: 0px 0px 0px 0px;
   #z-index: 0;
   font-size: 18px;
   font-family: Georgia;
   text-align: left;
-  margin-right: 600px;
+  margin-right: 300px;
 }
 
 .main p.title3 {
-  position: relative;
-  top: 81px;
+  position: absolute;
+  top: 230px;
   left: 300px;
   padding: 0px 0px 0px 0px;
   #z-index: 0;
   font-size: 18px;
   font-family: Georgia;
   text-align: left;
-  margin-right: 600px;
+  margin-right: 300px;
 }
 
 .main p.mail {
@@ -165,7 +164,7 @@ body {
 
 .main p.end {
   position: relative;
-  top: 360px;
+  top: 501px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -191,7 +190,7 @@ body {
 
 .main p.copyright {
   position: relative;
-  top: 350px;
+  top: 492px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
@@ -208,8 +207,8 @@ body {
 }
 
 .main img.img3 {
-  position: relative;
-  top: 69px;
+  position: absolute;
+  top: 190px;
   left: 300px;
   z-index: 0;
 }
