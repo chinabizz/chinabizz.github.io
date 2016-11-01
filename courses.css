@@ -182,6 +182,7 @@ body {
 .main div.description3 {
   position: absolute;
   top: 280px;
+  left: 0px;
   #left: 42px;
   #margin-left: 100px;
   #margin-right: 60px;
@@ -194,7 +195,7 @@ body {
   #padding-left: 550px;
   text-indent: 30px;
   line-height: 130%;
-  border:6px; 
+  #border:6px; 
   border-style:solid; 
   border-color: yellow;
   #padding: 1em;
@@ -204,7 +205,8 @@ body {
 
 .main div.text {
   position: absolute;
-  top: 480px
+  top: 480px;
+  left: 0px;
 }
 
 .main p.description4 {
