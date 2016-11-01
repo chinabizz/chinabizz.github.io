@@ -181,6 +181,7 @@ body {
 
 .main div.description3 {
   position: absolute;
+  width: auto;
   top: 280px;
   left: 42px;
   margin-left: 100px;
