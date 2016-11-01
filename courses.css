@@ -389,12 +389,12 @@ body {
 .main ul.services {
   position: relative;
   top: 54px;
-  left: 510px;
+  #left: 510px;
   color: #ffffff;
   font-size: 20px;
   font-family: Georgia;
   list-style-type: circle;
-  #padding-left: 510px;
+  padding-left: 510px;
 }
 
 .main ul.services-1 {
