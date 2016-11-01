@@ -180,8 +180,7 @@ body {
 }
 
 #description3 {
-  position: relative;
-  width: auto;
+  position: absolute;
   top: 280px;
   left: 42px;
   margin-left: 100px;
@@ -198,14 +197,13 @@ body {
   border:6px; 
   border-style:solid; 
   border-color: yellow;
-  padding: 1em;
+  #padding: 1em;
   background-color: #f3f3f3;
   color: red;
 }
 
 #text {
   position: relative;
-  width: auto;
   top: 480px
 }
 
