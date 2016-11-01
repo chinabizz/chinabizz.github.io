@@ -394,17 +394,18 @@ body {
   font-size: 20px;
   font-family: Georgia;
   list-style-type: circle;
-  padding-left: 210px;
+  padding-left: 510px;
 }
 
 .main ul.services-1 {
   position: relative;
   top: 100px;
-  left: 510px;
+  #left: 510px;
   color: #ffffff;
   font-size: 20px;
   font-family: Georgia;
   list-style-type: circle;
+  padding-left: 510px;
 }
 
 .main ul.financial {
