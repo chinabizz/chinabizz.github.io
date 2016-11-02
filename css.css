@@ -329,12 +329,13 @@ body {
 
 .main ul.services-2 {
   position: absolute;
-  top: 580px;
+  top: 570px;
   left: 480px;
   color: #ffffff;
   font-size: 18px;
   font-family: Georgia;
   list-style-type: circle;
+  padding-top: 10px;
 }
 
 .main ul.services-2 li {
