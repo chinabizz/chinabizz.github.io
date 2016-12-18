@@ -790,9 +790,9 @@ display: none;
   list-style-type: circle;
 }
 
-.services-2 li {
+.services-2 table tr td li {
 display: none;
-  padding-right: 30px;
+  ///padding-right: 30px;
 }
 
 #lang2 li {
