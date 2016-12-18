@@ -792,7 +792,7 @@ display: block;
   padding-right: 30px;
 }
 
-#lang2 {
+#lang2 li {
 display: none;
 position: absolute;
 display: inline-block;
