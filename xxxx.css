@@ -792,6 +792,13 @@ display: block;
   padding-right: 30px;
 }
 
+#lang2 {
+position: absolute;
+display: block;
+left: -50px;
+top: 30px;
+}
+
 .centre p.mail {
   position: absolute;
   top: 590px;
