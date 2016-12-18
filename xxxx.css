@@ -816,7 +816,7 @@ top: 30px;
 }
 
 #form {
-  width: 87%;
+  width: 50%;
   position: absolute;
   margin-top: 8px;
   padding-top: 10px;
@@ -825,7 +825,7 @@ top: 30px;
 }
 
 #form table {
-width: 87%;
+width: 50%;
 background-color: #f3f3f3;
 color: black;
  padding-right: 15px;
