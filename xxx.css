@@ -460,7 +460,7 @@ display: none;
 }
 
 ///@media screen and (max-width: 800px) { }
-@media only screen and (max-device-width: 600px) { }
+@media only screen and (max-device-width: 800px) { }
 
 ///@media only screen and (max-width: 1000px) {
 
