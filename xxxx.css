@@ -821,14 +821,14 @@ top: 30px;
   margin-top: 8px;
   padding-top: 10px;
   top: 690px;
-  left: 30px;
+  left: 0px;
 }
 
 #form table {
 width: 250px;
 background-color: #f3f3f3;
 color: black;
- padding-right: 15px;
+ padding-right: 1px;
 }
 
 #form .td1 {
