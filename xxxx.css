@@ -794,7 +794,7 @@ display: block;
 
 #lang2 {
 position: absolute;
-display: block;
+display: inline-block;
 left: -50px;
 top: 30px;
 }
