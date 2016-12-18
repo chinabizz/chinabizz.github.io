@@ -777,7 +777,9 @@ display: block;
   margin-bottom: 10px;
   #z-index: 1;
 }
-
+.centre .services-2 {
+display: none;
+}	
 .centre ul.services-2 {
   position: absolute;
   top: 530px;
