@@ -793,6 +793,7 @@ display: block;
 }
 
 #lang2 {
+display: none;
 position: absolute;
 display: inline-block;
 left: -50px;
