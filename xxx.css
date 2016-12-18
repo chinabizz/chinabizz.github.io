@@ -459,8 +459,8 @@ display: none;
   color: #0b5394;
 }
 
-///@media screen and (max-width: 800px) { }
-@media only screen and (max-device-width: 200px) { }
+@media screen and (max-width: 800px) { }
+///@media only screen and (max-device-width: 200px) { }
 
 ///@media only screen and (max-width: 1000px) {
 
