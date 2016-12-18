@@ -836,7 +836,7 @@ nowrap: nowrap;
 text-align: left;
 font-size: 14px;
 font-family: Arial;
-width: 200px;
+width: 150px;
  position:absolute;
  margin-top:-20px;
  margin-left: 0px;
@@ -848,7 +848,7 @@ nowrap:nowrap;
 text-align:left;
 font-size:14px;
 font-family:Arial;
-width:200px;
+width:150px;
  position:absolute;
  margin-top: -20px;
  margin-left: 0px;
@@ -856,7 +856,7 @@ padding: 11px 10px;
 }
 
 #form table tr td textarea {
-width:300px;
+width:150px;
 height:100px;
 font-size:14px;
 }
