@@ -1030,7 +1030,7 @@ padding-right: 10px;
 
 .centre p.end {
   position: relative;
-  top: 200px;
+  top: 300px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -1045,7 +1045,7 @@ padding-right: 10px;
 
 .centre p.copyright {
   position: relative;
-  top: 170px;
+  top: 300px;
   margin-left: 0px;
   left: 0px;
   #z-index: 0;
