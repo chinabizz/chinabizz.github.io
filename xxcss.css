@@ -945,7 +945,7 @@ padding-top: 0px;
   margin-left: auto;
   margin-right: auto;
   border: 2px;
-  border-color: white;
+  border-color: red;
  border-style:solid; 
 }
 
@@ -956,7 +956,7 @@ background-color: #f3f3f3;
 color: black;
  padding-right: 15px;
   border: 2px;
-  border-color: yellow;
+  border-color: green;
  border-style:solid; 
   margin-left: auto;
   margin-right: auto;
