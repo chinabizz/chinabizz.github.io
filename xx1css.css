@@ -518,17 +518,18 @@ padding-right: 10px;
 }
 
 #main {
-  min-height: 250px;
+  height: 100%;
   width: 100%;
   //min-width: 10px;
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  background-color: green; /#28639a;
+  background-color: blue; /#28639a;
   color: #ffffff;
   box-shadow: none;
   ///box-shadow: -10px -10px 300px 1px black inset;
   padding-bottom: 0px;
+  margin-bottom: -200px;
 }
 
 #main .mob-a {
