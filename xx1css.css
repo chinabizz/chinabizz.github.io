@@ -524,11 +524,11 @@ padding-right: 10px;
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  background-color: pink; /#28639a;
+  background-color: green; /#28639a;
   color: #ffffff;
   box-shadow: none;
   ///box-shadow: -10px -10px 300px 1px black inset;
-  padding-bottom: 50px;
+  padding-bottom: 10px;
 }
 
 #main .mob-a {
@@ -731,6 +731,7 @@ display: block;
   //z-index: 5;
   //overflow: auto;
    height: auto;
+padding-bottom: 200px;
 }
 
 .main img.imgRV {
@@ -1054,7 +1055,7 @@ padding-right: 10px;
   font-family: Georgia;
   text-align: center;
   padding: 1px 1px;
-  margin-bottom: 200px;
+  padding-bottom: 10px;
   border: 2px;
   border-color: white;
  border-style:solid; 
