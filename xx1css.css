@@ -34,7 +34,7 @@ body {
 
 #background {
   #min-height: 80px;
-  background-color: #f3f3f3;
+  background-color: yellow; #f3f3f3;
   width: auto;
   position: relative;
   margin-right: auto;
