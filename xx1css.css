@@ -528,7 +528,7 @@ padding-right: 10px;
   color: #ffffff;
   box-shadow: none;
   ///box-shadow: -10px -10px 300px 1px black inset;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
 }
 
 #main .mob-a {
@@ -1055,7 +1055,7 @@ padding-right: 10px;
   font-family: Georgia;
   text-align: center;
   padding: 1px 1px;
-  padding-bottom: 10px;
+  padding-bottom: 1px;
   border: 2px;
   border-color: white;
  border-style:solid; 
