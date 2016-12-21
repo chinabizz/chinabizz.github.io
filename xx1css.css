@@ -531,6 +531,10 @@ padding-right: 10px;
   padding-bottom: 0px;
 }
 
+#main .mob-a {
+  text-decoration: none;
+}
+	
 #top {
   height: 95px;
 }
