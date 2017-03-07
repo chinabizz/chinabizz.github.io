@@ -199,9 +199,9 @@ padding-right: 20px;
 
 .main div.description3 {
   position: absolute;
-  width: 757px;
+  width: 810px;
   top: 290px;
-  left: 42px;
+  left: 12px;
   margin-left: 100px;
   margin-right: 60px;
   z-index: 1;
@@ -219,13 +219,14 @@ padding-right: 20px;
   border-color: yellow;
   #padding: 20px 20px;
   background-color: #f3f3f3;
-  color: red;
+  color: #0b5394;
 }
 
 .main p.description3 {
-position: relative;
-top: 5px;
+ position: relative;
+ top: 1px;
  text-indent: 10px;
+ color: red;
 }
 
 .main div.text {
@@ -459,13 +460,25 @@ top: 5px;
 
 .main ul.dates {
   position: absolute;
-  top: 51px;
+  top: 45px;
   left: 30px;
   color: #0b5394;
   font-size: 21px;
   font-family: Georgia;
   list-style-type: disc;
-  padding-left: 10px;
+  padding-left: 3px;
+}
+
+.main p.dates1 {
+  position: relative;
+  top: 6px;
+  left: 30px;
+  color: green;
+  font-size: 21px;
+  font-family: Georgia;
+  list-style-type: disc;
+  padding-left: 3px;
+  padding-right: 10px;
 }
 
 .links ul {
@@ -831,6 +844,18 @@ position: relative;
   height: auto;
   padding-bottom: 10px;
   padding-right: 5px;
+}
+
+.main p.dates1 {
+  position: relative;
+  top: 3px;
+  left: 1px;
+  color: green;
+  font-size: 18px;
+  font-family: Georgia;
+  list-style-type: disc;
+  padding-left: 3px;
+  padding-right: 3px;
 }
 
 .main div.text {
