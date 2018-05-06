@@ -54,43 +54,13 @@
 <p class="mail2"></p>
 
 
-<div id='form' style='margin:auto;overflow:hidden;'>
+<div id="form" style=''>
 
-<?php
-if(!empty($errors))
-{
-	echo nl2br($errors);
-}
-?>
-<form method="POST" name="email_form_with_php" 
-action="https://www.tlumacz-e.pl/attachment.php" enctype="multipart/form-data"> 
-<p>
-<label id='lname'>Imię i Nazwisko* </label>
-<input id='iname' type="text" name="name" >
-</p>
-<p>
-<label id='lemail'>Email* </label>
-<input id='iemail' type="text" name="email" >
-</p>
-<p>
-<label id='lmessage'>Wiadomość</label>
-<textarea id='imessage' name="message"></textarea>
-</p>
-<p>
-<label id='lfile'>Załącznik*</label>
-<input id='ifile' type="file" name="uploaded_file">
-</p>
-<input id="lbutton" type="submit" value="Wyślij" name='submit'>
-</form>
-<script language="JavaScript">
-var frmvalidator  = new Validator("email_form_with_php");
-frmvalidator.addValidation("name","req","Pole <Imię i Nazwisko> nie może być puste"); 
-frmvalidator.addValidation("email","req","Pole <Email> nie może być puste"); 
-frmvalidator.addValidation("email","email","adres email zawiera błędy"); 
-</script>
+<noscript><p class="java"> Do wysłania formularza potrzebna jest włączona obsługa javascript w przeglądarce ! </p>
+</noscript>
 
+<iframe seamless='seamless' frameBorder="0" scrolling="no" style="position:absolute;height:115%;width:105%;border:none;overflow-y:hidden;" src='https://forms.zohopublic.com/virtualoffice6955/form/notify/formperma/e3jhG99273HB28EM0bf8935fH'></iframe>
 </div>
-
 
 
 <p class="end"><a class="end" href="http://chinabizz.pl"> Strona Główna </a></p>
