@@ -85,43 +85,104 @@
 	
 	
 	
-<div id='form' style='margin:auto;overflow:hidden;'>
+<div id='form' style=''>
+   <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
+   <form action='https://crm.zoho.com/crm/WebToLeadForm' name=WebToLeads2003626000000113007 method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory();' accept-charset='UTF-8'>
 
-<?php
-if(!empty($errors))
-{
-	echo nl2br($errors);
-}
-?>
-<form method="POST" name="email_form_with_php" 
-action="https://a1.chinabizz.pl/attachment" enctype="multipart/form-data"> 
-<p>
-<label id='lname'>Imię i Nazwisko* </label>
-<input id='iname' type="text" name="name" >
-</p>
-<p>
-<label id='lemail'>Email* </label>
-<input id='iemail' type="text" name="email" >
-</p>
-<p>
-<label id='lmessage'>Wiadomość</label>
-<textarea id='imessage' name="message"></textarea>
-</p>
-<p>
-<label id='lfile'>Załącznik*</label>
-<input id='ifile' type="file" name="uploaded_file">
-</p>
-<input id="lbutton" type="submit" value="Wyślij" name='submit'>
-</form>
-<script language="JavaScript">
-var frmvalidator  = new Validator("email_form_with_php");
-frmvalidator.addValidation("name","req","Pole <Imię i Nazwisko> nie może być puste"); 
-frmvalidator.addValidation("email","req","Pole <Email> nie może być puste"); 
-frmvalidator.addValidation("email","email","adres email zawiera błędy"); 
+	 <!-- Do not remove this code. -->
+	<input type='text' style='display:none;' name='xnQsjsdp' value='4727577977b08719b68982c2938a417510a0b102e2d5aba221d7d25bc171bb34'/>
+	<input type='hidden' name='zc_gad' id='zc_gad' value=''/>
+	<input type='text' style='display:none;' name='xmIwtLD' value='90b766fef512ce07fd3ce040a04494bc0f16ae2d9129f1e3535619df90cc069d'/>
+	<input type='text' style='display:none;'  name='actionType' value='TGVhZHM='/>
+
+	<input type='text' style='display:none;' name='returnURL' value='https&#x3a;&#x2f;&#x2f;info.chinabizz.pl&#x2f;potwierdzenie.html' /> 
+	 <!-- Do not remove this code. -->
+	<style>
+		tr , td { 
+			padding:6px;
+			border-spacing:0px;
+			border-width:0px;
+			}
+	</style>
+	<table style=''>
+
+	<tr><td colspan='2' style=''><strong></strong></td></tr>
+
+	<tr><td  class="td1" style=''>Imi&#x119; i Nazwisko<span style='color:red;'>*</span></td><td class="td1-1" style='' ><input class="td1-1" type='text' style=''  maxlength='80' name='Last Name' /></td></tr>
+
+	<tr><td  class="td1" style=''>Email<span style='color:red;'>*</span></td><td class="td1-1" style='' ><input class="td1-1" type='text' style=''  maxlength='100' name='Email' onblur='checkmail(Email)'/></td></tr>
+
+	<tr><td  class="td1" style=''>Telefon kontaktowy</td><td class="td1-1" style='' ><input class="td1-1" type='text' style=''  maxlength='30' name='Phone' /></td></tr>
+
+	<tr><td  class="td2" style=''>Wiadomo&#x15b;&#x107;<span style='color:red;'>*</span> </td><td> <textarea name='Description' maxlength='3000px' style=''>&nbsp;</textarea></td></tr>
+
+        <tr style='display:none;' ><td style='nowrap:nowrap;text-align:left;font-size:12px;font-family:Arial;width:30%'>Tytu&#x142;</td><td style='width:50px;' ><input type='text' style='width:50px;'  maxlength='50' name='Designation' value='Doradztwo'></input></td></tr>
+
+	<tr><td class="td-b" colspan='2' style=''>
+		<input style='' type='submit' value='Wyślij' />
+		<input type='reset' style='' value='Wyczyść' />
+	    </td>
+	</tr>
+   </table>
+	<script>
+ 	  var mndFileds=new Array('Last Name','Email','Description');
+ 	  var fldLangVal=new Array('Imię i Nazwisko','Email','Wiadomość');
+		var name='';
+		var email='';
+                var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
+
+ 	  function checkMandatory() {
+		for(i=0;i<mndFileds.length;i++) {
+		  var fieldObj=document.forms['WebToLeads2003626000000113007'][mndFileds[i]];
+		  if(fieldObj) {
+			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
+			 if(fieldObj.type =='file')
+				{ 
+				 alert('Wybierz plik do załadowania'); 
+				 fieldObj.focus(); 
+				 return false;
+				} 
+			alert('pole ' + fldLangVal[i] +' nie może być puste'); 
+   	   	  	  fieldObj.focus();
+   	   	  	  return false;
+			}  else if(fieldObj.nodeName=='SELECT') {
+  	   	   	 if(fieldObj.options[fieldObj.selectedIndex].value=='-None-') {
+				alert(fldLangVal[i] +' nie może żaden'); 
+				fieldObj.focus();
+				return false;
+			   }
+			} else if(fieldObj.type =='checkbox'){
+ 	 	 	 if(fieldObj.checked == false){
+				alert('Please accept  '+fldLangVal[i]);
+				fieldObj.focus();
+				return false;
+			   } 
+			 } 
+			 try {
+			     if(fieldObj.name == 'Last Name') {
+				name = fieldObj.value;
+ 	 	 	    }
+			} catch (e) {}
+		    }
+		}
+	     }
+	   
 </script>
 
-</div>
+<script>
+var emailfilter=/^\w+[\+\.\w-]*@([\w-]+\.)*\w+[\w-]*\.([a-z]{2,4}|\d+)$/i;
+function checkmail(Email){
+var returnval=emailfilter.test(Email.value);
+if (returnval==false && Email.value !=""){
+alert("Proszę wpisać poprawny adres email albo wyczyścić pole.");
+setTimeout(function(){Email.focus()}, 10);
+return false;
+}
+}
+</script>
 
+	</form>
+</div>
 
 
 
