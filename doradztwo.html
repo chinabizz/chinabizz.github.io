@@ -101,7 +101,7 @@
 
 	<tr><td colspan='2' style=''><strong></strong></td></tr>
 
-	<tr><td  class="td1" style=''>Imi&#x119; i Nazwisko<span style='color:red;'>*</span></td><td class="td1-1" style='' ><input class="td1-1" type='text' style=''  maxlength='80' name='Last Name' /></td></tr>
+	<tr><td  class="td1" style=''>Imi&#x119; i Nazwisko<span style='color:red;'>*</span></td><td class="td1-1" style='' ><input class="td1-1" type='text' style=''  maxlength='80' name='Last_Name' /></td></tr>
 
 	<tr><td  class="td1" style=''>Email<span style='color:red;'>*</span></td><td class="td1-1" style='' ><input class="td1-1" type='text' style=''  maxlength='100' name='Email' onblur='checkmail(Email)'/></td></tr>
 
@@ -118,7 +118,7 @@
 	</tr>
    </table>
 	<script>
- 	  var mndFileds=new Array('Last Name','Email','Description');
+ 	  var mndFileds=new Array('Last_Name','Email','Description');
  	  var fldLangVal=new Array('Imię i Nazwisko','Email','Wiadomość');
 		var name='';
 		var email='';
@@ -152,7 +152,7 @@
 			   } 
 			 } 
 			 try {
-			     if(fieldObj.name == 'Last Name') {
+			     if(fieldObj.name == 'Last_Name') {
 				name = fieldObj.value;
  	 	 	    }
 			} catch (e) {}
