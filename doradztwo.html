@@ -87,7 +87,7 @@
 	
 <div id='form' style=''>
    <META HTTP-EQUIV ='content-type' CONTENT='text/html;charset=UTF-8'>
-   <form action='https://www.tlumacz-e.pl/a1/form1.php' name='' method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory();' accept-charset='UTF-8' enctype="multipart/form-data">
+   <form action='https://www.tlumacz-e.pl/a1/form1.php' name='form-d' method='POST' onSubmit='javascript:document.charset="UTF-8"; return checkMandatory();' accept-charset='UTF-8' enctype="multipart/form-data">
 
 	 
 	<style>
@@ -126,7 +126,7 @@
 
  	  function checkMandatory() {
 		for(i=0;i<mndFileds.length;i++) {
-		  var fieldObj=document.forms['WebToLeads2003626000000113007'][mndFileds[i]];
+		  var fieldObj=document.forms['form-d'][mndFileds[i]];
 		  if(fieldObj) {
 			if (((fieldObj.value).replace(/^\s+|\s+$/g, '')).length==0) {
 			 if(fieldObj.type =='file')
