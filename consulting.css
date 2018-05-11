@@ -67,15 +67,6 @@ color: white;
 border: none;
 }
 
-#form {
-  #width: auto;
-  position: relative;
-  margin-top: 8px;
-  padding-top: 30px;
-  top: 666px;
-  left: 0px;
-}
-
 .top {
   #display: inline;
   #position: relative;
@@ -220,7 +211,7 @@ padding-right: 20px;
 
 .main p.end {
   position: relative;
-  top: 690px;
+  top: 630px;
   left: 0px;
   #z-index: 0;
   font-size: 14px;
@@ -246,7 +237,7 @@ padding-right: 20px;
 
 .main p.copyright {
   position: relative;
-  top: 681px;
+  top: 630px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
@@ -360,7 +351,7 @@ padding-right: 20px;
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  top: 660px;
+  top: 580px;
   left: 0px;
   margin: auto;
 }
