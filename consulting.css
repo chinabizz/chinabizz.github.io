@@ -9,7 +9,7 @@ body {
   border: 0px solid #f3f3f3;
   box-shadow: 1px 1px 27px 5px #cccccc;
   padding: 10px;
-  top: 10px;
+  top: 30px;
   background-color: #ffffff;
   width: 1060px;
   position: relative;
@@ -17,6 +17,7 @@ body {
   margin-left: auto;
   max-width: 1080px;
   min-width: 600px;
+  right: 10px;
   bottom: 10px
 }
 #top {
