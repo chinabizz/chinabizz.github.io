@@ -48,7 +48,7 @@ display: none;
 }
 
 #main {
-  min-height: 2070px;
+  min-height: 1200px;
   width: auto;
   position: relative;
   margin-top: 8px;
@@ -153,6 +153,39 @@ padding-right: 20px;
   text-align: center;
   text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 1px -1px 0, #000000 -1px 1px 0, #000000 0px 1px 0, #000000 1px 0px 0, #000000 0px -1px 0, #000000 -1px 0px 0, #000000 4px 4px 3px;
 }
+
+#formularz {
+  position: relative;
+  top: 130px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 24px;
+  font-family: Georgia;
+  text-align: center;
+}
+
+#formularz h {
+   //font-weight: bold;
+   color: yellow;
+}
+
+#formularz p.left-1 {
+  position: relative;
+    top: 30px;
+   left: 0px;
+   margin-right: 800px;
+     text-align: right;
+  ///text-indent: -50px;
+   color: yellow;
+}
+
+#formularz p.right-1 {
+  margin-left: 300px;
+    text-align: left;
+   padding-right: 60px;
+}
+
+
 
 .main p.description {
   position: absolute;
@@ -347,7 +380,7 @@ padding-right: 20px;
 
 .main p.copyright {
   position: relative;
-  top: 1495px;
+  top: 300px;
   left: 0px;
   #z-index: 0;
   font-size: 12px;
@@ -562,45 +595,57 @@ padding-right: 20px;
   position: relative;
   margin-top: 8px;
   padding-top: 30px;
-  top: 1450px;
-  left: 0px;
+  top: 120px;
+  left: -100px;
   margin: auto;
 }
 
 #form table {
 width: 580px;
-background-color: #f3f3f3;
-color: black;
+//background-color: #f3f3f3;
+color: yellow;
  padding-right: 15px;
 }
 
 #form .td1 {
 nowrap: nowrap;
 text-align: right;
-font-size: 14px;
+font-size: 18px;
 font-family: Arial;
 width: 200px;
 }
 
 #form .td1-1 {
 width: 250px;
+font-size: 21px;
+}
+
+#form select {
+font-size: 18px;
+}
+
+#form option {
+ ///text-align: center;
+  padding-left: 5px;
+  margin-right: -2px;
+  margin-left: 5px;
 }
 
 #form .td2 {
 nowrap:nowrap;
 text-align:right;
-font-size:14px;
+font-size: 18px;
 font-family:Arial;
-width:200px;
+width:50px;
  position:absolute;
  margin-top:10px;
- margin-left:-72px;
+ margin-left:170px;
 }
 
 #form table tr td textarea {
-width:400px;
-height:100px;
-font-size:14px;
+width:255px;
+height:60px;
+font-size:18px;
 }
 
 #form .td-b {
@@ -611,13 +656,14 @@ width: 30px;
 }
 
 #form input[type=submit] {
-font-size:14px;
+font-size:18px;
 color: white; ////#131307;
-left: -20px;
-margin-right: 20px;
+left: 0px;
+margin-top: 10px;
+margin-left: 200px;
 padding-left: 10px;
 padding-right: 10px;
-background: #208fdd; //#1d8cda;
+background-color: #208fdd; //#1d8cda;
  border:3px; 
   border-style:solid; 
   border-color: #208fdd; ///#1d8cda;
@@ -625,6 +671,13 @@ background: #208fdd; //#1d8cda;
    border-radius: 6px;
    cursor: pointer;
 }
+
+#form input[type=submit]:hover {
+ background-color: #cccccc;
+ border-color: #cccccc;
+  color: black;
+}
+
 
 #form input[type=reset] {
 font-size:14px;
@@ -844,6 +897,33 @@ display: none;
   text-shadow: #000000 1px 1px 0, #000000 -1px -1px 0, #000000 1px -1px 0, #000000 -1px 1px 0, #000000 0px 1px 0, #000000 1px 0px 0, #000000 0px -1px 0, #000000 -1px 0px 0, #000000 4px 4px 3px;
 }
 
+#formularz {
+  position: relative;
+  top: 40px;
+  left: 0px;
+  #z-index: 0;
+  font-size: 24px;
+  font-family: Georgia;
+  text-align: center;
+}
+
+#formularz p.left-1 {
+  position: relative;
+    top: 0px;
+   left: 10%;
+   margin-right: 800px;
+   margin-top: 10px;
+     text-align: right;
+  ///text-indent: -50px;
+   color: yellow;
+}
+
+#formularz p.right-1 {
+  margin-left: 15%;
+    text-align: left;
+   padding-right: 10%;
+}
+
 
 .main div.description3 {
   position: relative;
@@ -868,7 +948,7 @@ display: none;
   line-height: 130%;
   border:6px; 
   border-style:solid; 
-  border-color: #d2be12;
+  border-color: yellow;
   //padding: 20px 20px;
   background-color: #f3f3f3;
   color: red;
@@ -876,27 +956,6 @@ display: none;
 
 .main p.description3 {
 position: relative;
-}
-
-#zapisy {
-  position: relative;
-  width: 120px;
-  top: 15px;
-  //right: 180px;
-  #z-index: 0;
-  font-size: 24px;
-  font-family: Georgia;
-  text-align: center;
-  margin-left: auto;
-  margin-right: auto;
-  margin-bottom: 15px;
-  padding: 5px 8px;
-  #text-indent: 50px;
-  background-color: #28639a;
-  color: #f3d39a;
-  line-height: 130%;
-  //border: 3px solid #f3d39a;
-  border-radius: 15px;
 }
 
 .main ul.dates {
@@ -1226,8 +1285,8 @@ display: block;
 #form table {
 max-width: 300px;
 width: 98%;
-background-color: #f3f3f3;
-color: black;
+//background-color: #f3f3f3;
+color: yellow;
  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
@@ -1236,7 +1295,7 @@ color: black;
 #form .td1 {
 nowrap: nowrap;
 text-align: left;
-font-size: 14px;
+font-size: 18px;
 font-family: Arial;
 width: 200px;
  position:absolute;
@@ -1257,11 +1316,11 @@ margin-bottom: 10px
 #form .td2 {
 nowrap:nowrap;
 text-align:left;
-font-size:14px;
+font-size:18px;
 font-family:Arial;
 width:200px;
  position:absolute;
- margin-top: -20px;
+ margin-top: -10px;
  margin-left: 0px;
 padding: 11px 10px;
 }
@@ -1270,11 +1329,15 @@ padding: 11px 10px;
 font-size:18px;
 }
 
+#form select {
+margin-top: 10px;
+}
+
 #form table tr td textarea {
 width:250px;
 height:100px;
 font-size:18px;
-margin-top: 10px;
+margin-top: 20px;
 }
 
 #form .td-b {
@@ -1288,7 +1351,8 @@ width: 30px;
 font-size:14px;
 //color:#131307;
 left: -20px;
-margin-right: 20px;
+margin-right: auto;
+margin-left: auto;
 padding-left: 10px;
 padding-right: 10px;
 background-color: #208fdd;
