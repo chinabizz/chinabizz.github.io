@@ -408,7 +408,7 @@ padding-left: 10px;
   padding: 9px 61px;
   margin-right: 0px;
   float: none ! important;
-  color: #666666;
+  color: #525252;
   text-align: center ! important;
   text-decoration: none;
   font-size: 14px;
@@ -665,7 +665,7 @@ display: none;
  width: 100%;
  //min-width: 100px;
  #font-size: 1em;
- background-color: #bbc984; //#777473;
+ //background-color: #bbc984; //#777473;
  //color: white
 }
 
