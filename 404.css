@@ -160,7 +160,7 @@ padding-right: 20px;
   font-family: Georgia;
   text-align: center;
   padding: 10px 169px;
-  color: yellow;
+  color: #cccccc;
 }
 
 .main p.end {
@@ -410,6 +410,7 @@ height: 75px;
 }
 
 .links ul {
+box-shadow: 1px 20px 40px 15px white inset;
 padding-top: 3px;
 padding-bottom: px;
 padding-left: 0px;
@@ -520,7 +521,7 @@ display: block;
   font-family: Georgia;
   text-align: center;
   padding: 10px 10px;
-  color: yellow;
+  ///color: yellow;
 }
 
 .main p.end {

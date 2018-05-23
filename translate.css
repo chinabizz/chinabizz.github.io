@@ -282,7 +282,7 @@ padding-top: 5px;
   padding: 10px 215px;
   #text-indent: 50px;
   line-height: 130%;
-  color: yellow;
+  color: #cccccc;
 }
 
 .main p.mail2 {
@@ -457,9 +457,10 @@ padding-top: 5px;
   font-weight: bold;
 }
 .links li a.active {
-    background-color: #0b5394;
-    color: white;
-    #box-shadow: 1px 5px 15px 1px white inset;
+    //background-color: #0b5394;
+    color: #0b5394;;//#28639a;
+   text-transform: uppercase;
+   padding: 9px 51px;
 }
 .links li a:hover:not(.active) {
   background-color: #f3f3f3;
@@ -609,6 +610,7 @@ height: 75px;
 }
 
 .links ul {
+ box-shadow: 1px 20px 40px 15px white inset;
 padding-top: 3px;
 padding-bottom: px;
 padding-left: 0px;
@@ -816,7 +818,7 @@ display: block;
   padding: 0px 10px;
   #text-indent: 50px;
   line-height: 130%;
-  color: yellow;
+  ///color: yellow;
 }
 
 .main p.java {
@@ -1072,6 +1074,17 @@ width: 200px;
  margin-left: 0px;
 padding: 11px 10px;
 margin-bottom: 10px;
+}
+
+#attach1 {
+top: 360px;
+}
+
+#form input[type=file] {
+font-size:16px;
+height: 30px;
+padding-left: 10px;
+padding-right: 10px;
 }
 
 #form .td1-1 {

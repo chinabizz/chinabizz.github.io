@@ -161,7 +161,7 @@ padding-right: 20px;
   font-family: Georgia;
   text-align: center;
   padding: 10px 169px;
-  color: yellow;
+  color: #cccccc;
 }
 
 .main p.end {
@@ -520,10 +520,6 @@ display: block;
   font-family: Georgia;
   text-align: center;
   padding: 20px 10px;
-  color: yellow;
-  border: 2px;
-  border-color: yellow;
-  border-style:solid; 
 }
 
 .main p.end {

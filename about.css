@@ -430,6 +430,7 @@ height: 75px;
 }
 
 .links ul {
+box-shadow: 1px 20px 40px 15px white inset;
 padding-top: 3px;
 padding-bottom: px;
 padding-left: 0px;

@@ -165,8 +165,14 @@ padding-right: 20px;
 }
 
 #formularz h {
-   //font-weight: bold;
-   color: yellow;
+   font-weight: bold;
+   color: #cccccc;
+//color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 #formularz p.left-1 {
@@ -175,8 +181,15 @@ padding-right: 20px;
    left: 0px;
    margin-right: 800px;
      text-align: right;
+ text-decoration: underline;
   ///text-indent: -50px;
-   color: yellow;
+   color: #cccccc;
+//color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 #formularz p.right-1 {
@@ -603,8 +616,14 @@ padding-right: 20px;
 #form table {
 width: 580px;
 //background-color: #f3f3f3;
-color: yellow;
+//color: yellow;
  padding-right: 15px;
+color: white;
+    text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
 }
 
 #form .td1 {
@@ -828,6 +847,7 @@ height: 75px;
 }
 
 .links ul {
+box-shadow: 1px 20px 40px 15px white inset;
 padding-top: 3px;
 padding-bottom: px;
 padding-left: 0px;
@@ -915,7 +935,7 @@ display: none;
    margin-top: 10px;
      text-align: right;
   ///text-indent: -50px;
-   color: yellow;
+   ///color: yellow;
 }
 
 #formularz p.right-1 {
@@ -1286,7 +1306,7 @@ display: block;
 max-width: 300px;
 width: 98%;
 //background-color: #f3f3f3;
-color: yellow;
+///color: yellow;
  padding-right: 15px;
   margin-left: auto;
   margin-right: auto;

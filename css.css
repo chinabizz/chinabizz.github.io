@@ -212,7 +212,7 @@ padding-right: 20px;
   font-family: Georgia;
   text-align: center;
   padding: 10px 210px;
-  color: yellow;
+  color: #cccccc; //#f3f3f3;
 }
 
 .main p.mail1 {
@@ -398,6 +398,7 @@ padding-left: 10px;
   margin-bottom: -15px;
   list-style-type: none;
 }
+
 .links li {
   display: inline-block;
   text-align: center ! important;
@@ -415,11 +416,14 @@ padding-left: 10px;
   font-family: Georgia;
   font-weight: bold;
 }
+
 .links li a.active {
-    background-color: #0b5394;
-    color: white;
-    #box-shadow: 1px 5px 15px 1px white inset;
+    //background-color: #0b5394;
+    color: #0b5394;;//#28639a;
+   text-transform: uppercase;
+   padding: 9px 55px;
 }
+
 .links li a:hover:not(.active) {
   background-color: #f3f3f3;
   color: #0b5394;
@@ -634,9 +638,23 @@ height: 75px;
 }
 
 #links ul {
-padding-top: 3px;
-padding-bottom: px;
-padding-left: 0px;
+  box-shadow: 1px 20px 40px 15px white inset;
+  padding-top: 3px;
+  padding-bottom: px;
+  padding-left: 0px;
+}
+
+.links ul {
+  border: 0px solid grey;
+  overflow: hidden;
+  background-color: #cccccc;
+  //box-shadow: 1px 20px 10px 1px white inset;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  padding-left: 6px;
+  margin-top: 0px;
+  margin-bottom: -15px;
+  list-style-type: none;
 }
 
 #links li {
@@ -788,10 +806,6 @@ padding-left: 10px;
  text-indent: -10px;
 }
 
-.main p.consulting span:first-line {
-color: yellow;
-}
-
 .centre ul.services {
   position: relative;
   max-width: 160px;
@@ -830,10 +844,6 @@ position: absolute;
 margin-left: 33%;
   padding-bottom: 10px;
  font-size: 15;
-}
-
-.main p.courses span:first-line {
-color: yellow;
 }
 
 .centre img.imgRV-1 {
@@ -887,10 +897,6 @@ margin-left: 33%;
  text-indent: -10px;
 }
 
-.main p.translate span:first-line {
-color: yellow;
-}
-
 .centre img.imgRV-2 {
   position: absolute;
   width: 30%;
@@ -941,7 +947,7 @@ padding-top: 0px;
   font-family: Georgia;
   text-align: center;
   padding: 10px 10px;
-  color: yellow;
+  //color: yellow;
 }
 
 #form {
